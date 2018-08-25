@@ -1,7 +1,7 @@
 <!DOCTYPE  html>
   <html lang="ru">
     <head>
-		<meta charset="windows-1251">
+		<meta charset="utf-8">
 		<meta name="keywords" content="">
 		<meta name="description" content="">
 		<meta http-equiv= "X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   </head>
 <body class="git">
 <header class="git_header" role="banner">
-	<h1 class="git_header-h1">Git инструкция</h1>
+	<h1 class="git_header-h1">Git-инструкция-Windows</h1>
 	<a href="?clean" class="git_header-a">Закрыть</a>
 	<nav class="git_header_nav" role="navigation">
 		 <fieldset class="git_fieldset"><legend class="git_fieldset-legend">Напоминание</legend>
@@ -25,6 +25,7 @@
 			<p class="git_fieldset-p"><b>Session: </b><?=session_id();?></p>
 			<p class="git_fieldset-p"><b>Result: </b><?=$res?></p> 
 		</fieldset>
+		
 		<ul class="git_header_nav_ul">
 			<li class="git_header_nav_ul-li">
 				<dl class="git_header_dl">
@@ -47,16 +48,16 @@
 						<a href="?command_index" class="git_header_dl_dd-a">Индекс</a>
 					</dd>
 					<dd class="git_header_dl-dd">
-						<a href="?command_index_extended" class="git_header_dl_dd-a">Индекс(расширенный)</a>
+						<a href="?command_index_extended" class="git_header_dl_dd-a">Индекс(Р)</a>
 					</dd>
 					<dd class="git_header_dl-dd">
 						<a href="?command_commit" class="git_header_dl_dd-a">Коммит</a>
 					</dd>
 				</dl>
 			</li>
-			<li class="git_header_nav_ul-li">
+			<!-- <li class="git_header_nav_ul-li">
 				<dl class="git_header_dl">
-					<dt class="git_header_dl-dt">Установка Git</dt>
+					<dt class="git_header_dl-dt">Ссылки</dt>
 					<dd class="git_header_dl-dd">
 						<a href="?" class="git_header_dl_dd-a"></a>
 					</dd>
@@ -67,12 +68,12 @@
 						<a href="?" class="git_header_dl_dd-a"></a>
 					</dd>
 				</dl>
-			</li>
+			</li> -->
 			<li class="git_header_nav_ul-li">
 				<dl class="git_header_dl">
-					<dt class="git_header_dl-dt">Установка Git</dt>
+					<dt class="git_header_dl-dt">Инструменты</dt>
 					<dd class="git_header_dl-dd">
-						<a href="?" class="git_header_dl_dd-a"></a>
+						<a href="?history" class="git_header_dl_dd-a">История</a>
 					</dd>
 					<dd class="git_header_dl-dd">
 						<a href="?" class="git_header_dl_dd-a"></a>
@@ -83,8 +84,21 @@
 				</dl>
 			</li>
 			<li class="git_header_nav_ul-li">
+				<strong class="git_header_nav_ul-strong">Сервер</strong>
 				<dl class="git_header_dl">
-					<dt class="git_header_dl-dt">Установка Git</dt>
+					<dt class="git_header_dl-dt">Локальный</dt>
+					<dd class="git_header_dl-dd">
+						<a href="?" class="git_header_dl_dd-a"></a>
+					</dd>
+					<dd class="git_header_dl-dd">
+						<a href="?" class="git_header_dl_dd-a"></a>
+					</dd>
+					<dd class="git_header_dl-dd">
+						<a href="?" class="git_header_dl_dd-a"></a>
+					</dd>
+				</dl>
+				<dl class="git_header_dl">
+					<dt class="git_header_dl-dt">Удаленный</dt>
 					<dd class="git_header_dl-dd">
 						<a href="?" class="git_header_dl_dd-a"></a>
 					</dd>
