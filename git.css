@@ -162,7 +162,7 @@ text-decoration:underline;
 {
 width:calc(100%);
 padding:.4rem;
-background:hsla(0,0%,100%,1);
+background:hsla(40,80%,20%,1);
 
 display:flex;
 flex-direction:row;
@@ -176,7 +176,7 @@ padding:.4rem;
 font:normal .9rem/1 'Courier New', monospace;
 color:hsla(0,0%,0%,1);
 
-background:hsla(0,0%,70%,1);
+background:hsla(0,0%,100%,1);
 }
 /*---футер---*/
 .git_footer
@@ -206,23 +206,28 @@ min-width:calc(76%);
 margin-left:1%;
 margin-top:8px;
 
-background:hsla(0,0%,100%,1);
+background:hsla(0,0%,0%,0);
 
 display:flex;
 flex-direction:row;
 flex-wrap:wrap;
-align-items: flex-start;
+justify-content: flex-start;
+align-self: stretch;
 }
 .git_header_nav_ul-li, .git_footer_nav_ul-li
 {
+min-width:calc(20%);
+margin-left:5px;
+margin-bottom:5px;
 padding:.2rem;
-/*border-left:1px solid hsla(0,0%,0%,1);
-border-bottom:1px solid hsla(0,0%,0%,1);*/
+
+box-shadow:hsla(0,0%,0%,1) 3px 3px 15px;
+
+background:hsla(0,0%,100%,1);
 }
 .git_header_dl, .git_footer_dl
 {
-position:relative;
-border-bottom:1px solid hsla(0,0%,0%,1);
+padding:.2rem;
 }
 /*.git_header_dl:hover .git_header_dl-dd, .git_footer_dl:hover .git_footer_dl-dd
 {

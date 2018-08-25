@@ -84,26 +84,13 @@
 				</dl>
 			</li>
 			<li class="git_header_nav_ul-li">
-				<strong class="git_header_nav_ul-strong">Сервер</strong>
 				<dl class="git_header_dl">
-					<dt class="git_header_dl-dt">Локальный</dt>
+					<dt class="git_header_dl-dt">Сервер</dt>
 					<dd class="git_header_dl-dd">
-						<a href="?" class="git_header_dl_dd-a"></a>
+						<a href="?local" class="git_header_dl_dd-a">Локальный</a>
 					</dd>
 					<dd class="git_header_dl-dd">
-						<a href="?" class="git_header_dl_dd-a"></a>
-					</dd>
-					<dd class="git_header_dl-dd">
-						<a href="?" class="git_header_dl_dd-a"></a>
-					</dd>
-				</dl>
-				<dl class="git_header_dl">
-					<dt class="git_header_dl-dt">Удаленный</dt>
-					<dd class="git_header_dl-dd">
-						<a href="?" class="git_header_dl_dd-a"></a>
-					</dd>
-					<dd class="git_header_dl-dd">
-						<a href="?" class="git_header_dl_dd-a"></a>
+						<a href="?remote" class="git_header_dl_dd-a">Удаленный</a>
 					</dd>
 					<dd class="git_header_dl-dd">
 						<a href="?" class="git_header_dl_dd-a"></a>
