@@ -1,0 +1,256 @@
+/*--reset--*/
+html,body,header,nav,main,article,article header,article footer,section,aside, footer,canvas,video,audio,object,img,embed,figure,figcaption,h1,h2,h3,h4,h5,h6,div,span,p,dl,dt,dd,ol,ul,li,fieldset,legend,form,label,/*input,*/button,pre
+{ 
+margin:0;
+padding:0;
+border:0;
+outline:0;
+box-sizing:border-box;
+font-size:100%;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+font-family:'Arial Narrow' !important;
+vertical-align:baseline;
+line-height:1;
+text-overflow:ellipsis;
+color:hsla(0,0%,0%,1);
+text-shadow:0px 0px 1px hsla(0,0%,0%,.4);
+background:transparent;
+}
+/*----предварительные_стили----*/
+header,main,footer{display:block;margin:0 auto;}
+h1,h2,h3,h4,h5,h6{text-align:center;}
+img,object,video,embed{max-width:100%;display:block;position:relative;top:0;left:0;}
+article header,article footer{width:calc(100%);margin:0 auto;}
+footer{clear:both;}										
+a{text-decoration:none;color:hsla(0,0%,0%,1);}
+ol,ul{list-style:none;}
+:focus{outline:0;}
+/*--------------------------------------------*/
+
+
+.git
+{
+width:calc(100%);
+height:calc(100vh);
+background:hsla(0,0%,85%,1);
+}
+
+/*--хедер--*/
+.git_header
+{
+width:calc(100%);
+background:hsla(49,45%,79%,1);
+}
+.git_header-h1
+{
+font:100 1.6rem/1.4 serif;
+color:hsla(240,100%,40%,1);
+}
+/*--закрыть--*/
+.git_header-a
+{
+position:fixed;
+top:2rem;
+left:90vw;
+padding:.4rem;
+border-radius:.2rem;
+border:1px solid hsla(0,0%,0%,1);
+color:hsla(0,0%,100%,1);
+background:hsla(0,0%,0%,1);
+box-shadow:hsla(0,100%,40%,.6) .1rem .1rem .1rem;
+}
+/*------контент--------*/
+.git_main
+{
+width:calc(100%);
+}
+.git_section, .git_section-adjust
+{
+width:calc(100%);
+margin:0 auto;
+padding:1rem .4rem;
+}
+.git_section-h2
+{
+text-align:center;
+font:100 1.2rem/1.2 serif;
+letter-spacing:.1rem;
+color:hsla(0,0%,0%,1);
+}
+/*--создатель-Git--*/
+.git_aside
+{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+align-items: flex-start;
+}
+.git_aside_figure
+{
+width:calc(40%);
+}
+.git_aside_figure_figcaption
+{
+font:700 1.2rem/1.4 sans-serif;
+text-align:center;
+color:hsla(240,100%,50%,1);
+}
+.git_aside_figure-figcaption
+{
+text-align:center;
+}
+.git_aside_figure-img
+{
+margin:0 auto;
+box-shadow:hsla(0,0%,0%,1) .1rem .1rem .6rem;
+}
+.git_aside-dl
+{
+width:calc(60%);
+padding-top:1rem;
+}
+.git_aside_dl-dt
+{
+text-decoration:underline;
+font:italic 700 1.2rem/1.4 sans-serif;
+}
+.git_aside_dl-dd
+{
+padding-top:.4rem;
+}
+.git_aside_dl_dd-a
+{
+color:hsla(240,100%,50%,1);
+}
+.git_aside_dl_dd-a:hover
+{
+color:hsla(0,100%,50%,1);
+text-decoration:underline;
+}
+/*--контейнер(инфо)---*/
+.git_div_info
+{
+width:calc(100%);
+padding:.4rem;
+background:hsla(0,0%,100%,1);
+
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+.git_div_info-pre
+{
+min-width:calc(20vw);
+margin:0 5px 5px 0;
+padding:.4rem;
+font:normal .9rem/1 'Courier New', monospace;
+color:hsla(0,0%,0%,1);
+
+background:hsla(0,0%,70%,1);
+}
+/*---футер---*/
+.git_footer
+{
+width:calc(100%);
+padding:.6rem 0;
+background:hsla(24,80%,45%,1);
+}
+.git_footer-h4
+{
+font:normal 1.4rem/1.4 Arial,sans-serif;
+color:hsla(240,100%,40%,1);
+}
+
+/*---навигаторы---*/
+.git_header_nav, .git_footer_nav
+{
+padding-bottom:1rem;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+align-items: flex-start;
+}
+.git_header_nav_ul, .git_footer_nav_ul
+{
+min-width:calc(20%);
+margin-left:1%;
+margin-top:8px;
+
+background:hsla(0,0%,100%,1);
+}
+.git_header_nav_ul-li, .git_footer_nav_ul-li
+{
+padding:.2rem;
+/*border-left:1px solid hsla(0,0%,0%,1);
+border-bottom:1px solid hsla(0,0%,0%,1);*/
+}
+.git_header_dl, .git_footer_dl
+{
+position:relative;
+border-bottom:1px solid hsla(0,0%,0%,1);
+}
+/*.git_header_dl:hover .git_header_dl-dd, .git_footer_dl:hover .git_footer_dl-dd
+{
+display:block;
+}*/
+.git_header_dl-dt, .git_footer_dl-dt
+{
+font:normal .8rem/1 'Courier New', monospace;
+color:hsla(240,100%,40%,1);
+}
+.git_header_dl-dd, .git_footer_dl-dd
+{
+/*border:1px solid hsla(0,0%,0%,1);
+display:none;*/
+}
+.git_header_dl_dd-a, .git_footer_dl_dd-a
+{
+font:normal .8rem/1 'Agency FB', sans-serif;
+color:hsla(0,0%,0%,1);
+}
+.git_header_dl_dd-a:hover, .git_footer_dl_dd-a:hover
+{
+text-decoration:underline;
+color:hsla(0,100%,50%,1);
+}
+
+/*--Напоминание--*/
+.git_fieldset
+{
+width:calc(20%);
+margin-left:2%;
+padding:.4rem 0;
+
+background:hsla(240,100%,80%,1);
+}
+.git_fieldset-legend
+{
+font:italic 700 1rem/1 sans-serif;
+letter-spacing:1px;
+text-align:center;
+color:hsla(0,0%,10%,1);
+}
+.git_form
+{
+width:calc(100%);
+padding:.4rem;
+
+background:hsla(40,100%,60%,1);
+}
+.git_fieldset-p
+{
+padding:.1rem;
+background:hsla(0,0%,90%,1);
+}
+/*--коррекция--*/ 
+@media screen and ( max-width:690px){
+
+}
+@media screen and ( max-width:490px){
+
+}
+@media screen and ( max-width:390px){
+
+}
